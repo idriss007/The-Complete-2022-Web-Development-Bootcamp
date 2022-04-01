@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  height: 8rem;
+  display: flex;
+}
+
+header img {
+  height: 5rem;
+  margin: 25px;
+}
+
+.bar {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#rte {
+  height: 5rem;
+}
+
+.nav {
+  width: 17rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav a {
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  line-height: 8rem;
+}
+
+.nav a:hover {
+  color: lightgreen;
+}
+
+#main {
+  background-image: url("spotify-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+}
+
+footer {
+  background-color: aqua;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .a
+{
+  display: block;
+  width: 50%;
+  height: 20vh;
+  background-color: white;
+  margin-left: 10rem;
+}
+footer .b
+{
+  width: 10%;
+  height: 20vh;
+  background-color: crimson;
+  margin-right: 10rem;
+}
